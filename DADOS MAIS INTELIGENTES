@@ -10,12 +10,16 @@ console.log(cidades)
 alert(cidades)}
 
 function roteirosCidades(){
-    let roteiros = text.substring(377,430) + ", " + text.substring(955,1038) + ", " + text.substring(1491,1579)
-    console.log(roteiros)
-    alert(roteiros)
+    let roteiros = ("roteiroA")
+    switch(roteiros){
+    case 1:
+        alert("Avenida Paulista<br>MASP; Parque Trianon; Rua Augusta");
+        break;
+    case 2:
+        alert("Las Vegas Boulevard South<br>Fonte do Bellagio; Principais Cassinos; Madame Tussauds");
+        break;
+    case 3:
+        alert("Praça Vermelha<br>Museu Histórico do Estado; Catedral de São Basílico; Mausoléu de Lênin");
+        break;
 }
 
-function locaisCitados(){
-    locaisCitados = 
-    
-}
