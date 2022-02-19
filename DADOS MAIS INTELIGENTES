@@ -9,17 +9,22 @@ let cidades = text.substring(93,102) + ", " + text.substring(643,652) + ", " + t
 console.log(cidades)
 alert(cidades)}
 
-function roteirosCidades(){
-    let roteiros = ("roteiroA")
-    switch(roteiros){
-    case 1:
-        alert("Avenida Paulista<br>MASP; Parque Trianon; Rua Augusta");
-        break;
-    case 2:
-        alert("Las Vegas Boulevard South<br>Fonte do Bellagio; Principais Cassinos; Madame Tussauds");
-        break;
-    case 3:
-        alert("Praça Vermelha<br>Museu Histórico do Estado; Catedral de São Basílico; Mausoléu de Lênin");
-        break;
+function roteirosCidadesa(){
+    let roteirosCidades1 = "São Paulo: Avenida Paulista<br>MASP; Parque Trianon; Rua Augusta"
+    console.log(roteirosCidades1)
+    //alert(roteirosCidades1)
 }
+
+function roteirosCidadesb(){
+    let roteirosCidades2 = "Las Vegas: Las Vegas Boulevard South<br>Fonte do Bellagio; Principais Cassinos; Madame Tussauds"
+    console.log(roteirosCidades2)
+    //alert(roteirosCidades2)
+}
+
+function roteirosCidadesc(){
+    let roteirosCidades3 = "Moscou: Praça Vermelha<br>Museu Histórico do Estado; Catedral de São Basílico; Mausoléu de Lênin"
+    console.log(roteirosCidades3)
+    //alert(roteirosCidades3)
+}
+
 
