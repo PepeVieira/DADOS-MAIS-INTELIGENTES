@@ -27,4 +27,24 @@ function roteirosCidadesc(){
     //alert(roteirosCidades3)
 }
 
+funtion roteiroPrincipalsp(){
+    let saoPaulo = ["MASP", "Parque Trianon", "Rua Augusta"];
+    resultadosp = saoPaulo.length;
+    console.log(resultadosp)
+    //alert(resultadosp)
+}
+
+funtion roteiroPrincipala(){
+    let lasVegas = ["Fonte do Bellagio", "Principais Cassinos", "Madame Tussauds"];
+    resultadola = lasVegas.length;
+    console.log(resultadola)
+    //alert(resultadola)
+}
+
+funtion roteiroPrincipalm(){
+    let moscou = ["Museu Histórico do Estado", "Catedral de São Basílico", "Mausoléu de Lênin"];
+    resultadom = moscou.length;
+    console.log(resultadom)
+    //alert(resultadom)
+}
 
