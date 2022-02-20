@@ -54,3 +54,14 @@ function centroSp(){
     //alert(centroSp)
 }
 
+function downtownLv(){
+     let posicaolv = text.substring(1064, 1143)
+     console.log(posicaolv)
+     //alert(posicaolv)
+ }
+ 
+ functuin downtownLa(){
+      let posicaola = text.search("Los Angeles")
+      console.log(posicaola)
+      //alert(posicaola)
+ }
